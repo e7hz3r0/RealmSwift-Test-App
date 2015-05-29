@@ -473,12 +473,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04F49B18B177577EB1FC715A /* Pods-RealmSwift Test App.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "RealmSwift Test App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RealmSwift Test App/BridgingHeader.h";
-				USER_HEADER_SEARCH_PATHS = "Pods/**";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -486,12 +487,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 71A3666D1217392F357F94D0 /* Pods-RealmSwift Test App.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "RealmSwift Test App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RealmSwift Test App/BridgingHeader.h";
-				USER_HEADER_SEARCH_PATHS = "Pods/**";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
